@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading-top{
+    text-align: center;
+    margin: 45px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-top h1{
+    padding: 10px 0;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.heading-top p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    width: 99%;
+    height: 900px;
+    margin-bottom: 20px;
+}
+
+.row{
+    flex-direction: column;
+    flex: 23%;
+    margin: 0 5px;
+}
+
+.row > img{
+    width: 100%;
+    margin-top:10px ;
+    vertical-align: middle;   
+}
